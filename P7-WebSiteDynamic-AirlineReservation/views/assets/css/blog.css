@@ -1,0 +1,22 @@
+
+  
+  .column {
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .show {
+    display: block;
+  }
